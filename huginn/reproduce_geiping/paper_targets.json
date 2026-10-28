@@ -1,0 +1,33 @@
+{
+  "_source": "Geiping et al. 2025, 'Scaling up Test-Time Compute with Latent Reasoning: A Recurrent Depth Approach', arXiv:2502.05171. Copied from Tables 1-4. Double-check against the PDF before quoting any number in our paper.",
+  "_metric_notes": {
+    "table1": "Zero-shot, lm-eval harness, 'normalized accuracy when provided' (acc_norm for ARC-E, ARC-C, HellaSwag, OBQA, PiQA, SciQ; acc for WinoGrande and MMLU). Percent.",
+    "gsm8k": "Paper reports strict and flexible extraction as a pair. Listed here as [lower, higher]; we compare the lower to strict-match and the higher to flexible-extract, which is the order Lu et al. use for the same numbers. Percent.",
+    "code": "pass@1. Percent."
+  },
+  "table1": {
+    "4":  {"arc_easy": 49.07, "arc_challenge": 27.99, "hellaswag": 43.46, "mmlu": 23.39, "openbookqa": 28.20, "piqa": 64.96, "sciq": 80.00, "winogrande": 55.24},
+    "8":  {"arc_easy": 65.11, "arc_challenge": 35.15, "hellaswag": 58.54, "mmlu": 25.29, "openbookqa": 35.40, "piqa": 73.45, "sciq": 92.10, "winogrande": 55.64},
+    "16": {"arc_easy": 69.49, "arc_challenge": 37.71, "hellaswag": 64.67, "mmlu": 31.25, "openbookqa": 37.60, "piqa": 75.79, "sciq": 93.90, "winogrande": 57.77},
+    "32": {"arc_easy": 69.91, "arc_challenge": 38.23, "hellaswag": 65.21, "mmlu": 31.38, "openbookqa": 38.80, "piqa": 76.22, "sciq": 93.50, "winogrande": 59.43}
+  },
+  "table1_metric": {
+    "arc_easy": "acc_norm", "arc_challenge": "acc_norm", "hellaswag": "acc_norm", "openbookqa": "acc_norm",
+    "piqa": "acc_norm", "sciq": "acc_norm", "winogrande": "acc", "mmlu": "acc"
+  },
+  "gsm8k": {
+    "with_sys_prompt": {
+      "32": {"gsm8k": [24.87, 38.13], "gsm8k_cot": [34.80, 42.08]}
+    },
+    "without_sys_prompt": {
+      "32": {"gsm8k": [28.05, 28.20], "gsm8k_cot": [32.60, 34.57]}
+    },
+    "sanity_r1": {
+      "1": {"gsm8k_cot": [0.00, 0.00]}
+    }
+  },
+  "code": {
+    "32": {"mbpp": 24.80, "humaneval_instruct": 23.17}
+  },
+  "system_instruction": "You are a helpful assistant that can assist users with mathematical reasoning."
+}

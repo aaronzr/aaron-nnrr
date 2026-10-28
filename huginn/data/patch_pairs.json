@@ -1,0 +1,2002 @@
+[
+  {
+    "pattern": "+-",
+    "source": "Question: What is (2 + 3) - 1?\nAnswer:",
+    "target": "Question: What is (5 + 4) - 3?\nAnswer:",
+    "source_final": "4",
+    "source_intermediate": "5",
+    "target_final": "6",
+    "target_intermediate": "9",
+    "hybrid": "2"
+  },
+  {
+    "pattern": "--",
+    "source": "Question: What is (5 - 1) - 1?\nAnswer:",
+    "target": "Question: What is (7 - 1) - 2?\nAnswer:",
+    "source_final": "3",
+    "source_intermediate": "4",
+    "target_final": "4",
+    "target_intermediate": "6",
+    "hybrid": "2"
+  },
+  {
+    "pattern": "++",
+    "source": "Question: What is (2 + 2) + 2?\nAnswer:",
+    "target": "Question: What is (4 + 2) + 3?\nAnswer:",
+    "source_final": "6",
+    "source_intermediate": "4",
+    "target_final": "9",
+    "target_intermediate": "6",
+    "hybrid": "7"
+  },
+  {
+    "pattern": "+-",
+    "source": "Question: What is (4 + 1) - 2?\nAnswer:",
+    "target": "Question: What is (2 + 6) - 3?\nAnswer:",
+    "source_final": "3",
+    "source_intermediate": "5",
+    "target_final": "5",
+    "target_intermediate": "8",
+    "hybrid": "2"
+  },
+  {
+    "pattern": "-+",
+    "source": "Question: What is (6 - 4) + 5?\nAnswer:",
+    "target": "Question: What is (8 - 2) + 3?\nAnswer:",
+    "source_final": "7",
+    "source_intermediate": "2",
+    "target_final": "9",
+    "target_intermediate": "6",
+    "hybrid": "5"
+  },
+  {
+    "pattern": "--",
+    "source": "Question: What is (9 - 2) - 3?\nAnswer:",
+    "target": "Question: What is (7 - 4) - 2?\nAnswer:",
+    "source_final": "4",
+    "source_intermediate": "7",
+    "target_final": "1",
+    "target_intermediate": "3",
+    "hybrid": "5"
+  },
+  {
+    "pattern": "-+",
+    "source": "Question: What is (7 - 5) + 1?\nAnswer:",
+    "target": "Question: What is (4 - 1) + 5?\nAnswer:",
+    "source_final": "3",
+    "source_intermediate": "2",
+    "target_final": "8",
+    "target_intermediate": "3",
+    "hybrid": "7"
+  },
+  {
+    "pattern": "-+",
+    "source": "Question: What is (6 - 4) + 7?\nAnswer:",
+    "target": "Question: What is (5 - 4) + 5?\nAnswer:",
+    "source_final": "9",
+    "source_intermediate": "2",
+    "target_final": "6",
+    "target_intermediate": "1",
+    "hybrid": "7"
+  },
+  {
+    "pattern": "*-",
+    "source": "Question: What is (3 * 3) - 1?\nAnswer:",
+    "target": "Question: What is (2 * 3) - 5?\nAnswer:",
+    "source_final": "8",
+    "source_intermediate": "9",
+    "target_final": "1",
+    "target_intermediate": "6",
+    "hybrid": "4"
+  },
+  {
+    "pattern": "-+",
+    "source": "Question: What is (8 - 6) + 3?\nAnswer:",
+    "target": "Question: What is (5 - 4) + 2?\nAnswer:",
+    "source_final": "5",
+    "source_intermediate": "2",
+    "target_final": "3",
+    "target_intermediate": "1",
+    "hybrid": "4"
+  },
+  {
+    "pattern": "--",
+    "source": "Question: What is (7 - 1) - 4?\nAnswer:",
+    "target": "Question: What is (8 - 1) - 2?\nAnswer:",
+    "source_final": "2",
+    "source_intermediate": "6",
+    "target_final": "5",
+    "target_intermediate": "7",
+    "hybrid": "4"
+  },
+  {
+    "pattern": "-+",
+    "source": "Question: What is (4 - 1) + 4?\nAnswer:",
+    "target": "Question: What is (6 - 2) + 5?\nAnswer:",
+    "source_final": "7",
+    "source_intermediate": "3",
+    "target_final": "9",
+    "target_intermediate": "4",
+    "hybrid": "8"
+  },
+  {
+    "pattern": "+-",
+    "source": "Question: What is (4 + 4) - 7?\nAnswer:",
+    "target": "Question: What is (2 + 5) - 3?\nAnswer:",
+    "source_final": "1",
+    "source_intermediate": "8",
+    "target_final": "4",
+    "target_intermediate": "7",
+    "hybrid": "5"
+  },
+  {
+    "pattern": "-+",
+    "source": "Question: What is (7 - 3) + 2?\nAnswer:",
+    "target": "Question: What is (7 - 1) + 3?\nAnswer:",
+    "source_final": "6",
+    "source_intermediate": "4",
+    "target_final": "9",
+    "target_intermediate": "6",
+    "hybrid": "7"
+  },
+  {
+    "pattern": "+-",
+    "source": "Question: What is (2 + 5) - 3?\nAnswer:",
+    "target": "Question: What is (3 + 6) - 4?\nAnswer:",
+    "source_final": "4",
+    "source_intermediate": "7",
+    "target_final": "5",
+    "target_intermediate": "9",
+    "hybrid": "3"
+  },
+  {
+    "pattern": "++",
+    "source": "Question: What is (3 + 4) + 1?\nAnswer:",
+    "target": "Question: What is (2 + 3) + 2?\nAnswer:",
+    "source_final": "8",
+    "source_intermediate": "7",
+    "target_final": "7",
+    "target_intermediate": "5",
+    "hybrid": "9"
+  },
+  {
+    "pattern": "+-",
+    "source": "Question: What is (3 + 6) - 1?\nAnswer:",
+    "target": "Question: What is (4 + 2) - 5?\nAnswer:",
+    "source_final": "8",
+    "source_intermediate": "9",
+    "target_final": "1",
+    "target_intermediate": "6",
+    "hybrid": "4"
+  },
+  {
+    "pattern": "+-",
+    "source": "Question: What is (5 + 4) - 6?\nAnswer:",
+    "target": "Question: What is (3 + 4) - 5?\nAnswer:",
+    "source_final": "3",
+    "source_intermediate": "9",
+    "target_final": "2",
+    "target_intermediate": "7",
+    "hybrid": "4"
+  },
+  {
+    "pattern": "++",
+    "source": "Question: What is (3 + 2) + 1?\nAnswer:",
+    "target": "Question: What is (4 + 2) + 2?\nAnswer:",
+    "source_final": "6",
+    "source_intermediate": "5",
+    "target_final": "8",
+    "target_intermediate": "6",
+    "hybrid": "7"
+  },
+  {
+    "pattern": "--",
+    "source": "Question: What is (7 - 2) - 4?\nAnswer:",
+    "target": "Question: What is (9 - 2) - 1?\nAnswer:",
+    "source_final": "1",
+    "source_intermediate": "5",
+    "target_final": "6",
+    "target_intermediate": "7",
+    "hybrid": "4"
+  },
+  {
+    "pattern": "-+",
+    "source": "Question: What is (6 - 1) + 3?\nAnswer:",
+    "target": "Question: What is (9 - 7) + 1?\nAnswer:",
+    "source_final": "8",
+    "source_intermediate": "5",
+    "target_final": "3",
+    "target_intermediate": "2",
+    "hybrid": "6"
+  },
+  {
+    "pattern": "-+",
+    "source": "Question: What is (4 - 1) + 4?\nAnswer:",
+    "target": "Question: What is (8 - 6) + 3?\nAnswer:",
+    "source_final": "7",
+    "source_intermediate": "3",
+    "target_final": "5",
+    "target_intermediate": "2",
+    "hybrid": "6"
+  },
+  {
+    "pattern": "--",
+    "source": "Question: What is (8 - 5) - 2?\nAnswer:",
+    "target": "Question: What is (9 - 1) - 1?\nAnswer:",
+    "source_final": "1",
+    "source_intermediate": "3",
+    "target_final": "7",
+    "target_intermediate": "8",
+    "hybrid": "2"
+  },
+  {
+    "pattern": "++",
+    "source": "Question: What is (2 + 1) + 4?\nAnswer:",
+    "target": "Question: What is (2 + 2) + 5?\nAnswer:",
+    "source_final": "7",
+    "source_intermediate": "3",
+    "target_final": "9",
+    "target_intermediate": "4",
+    "hybrid": "8"
+  },
+  {
+    "pattern": "-+",
+    "source": "Question: What is (7 - 4) + 6?\nAnswer:",
+    "target": "Question: What is (8 - 7) + 3?\nAnswer:",
+    "source_final": "9",
+    "source_intermediate": "3",
+    "target_final": "4",
+    "target_intermediate": "1",
+    "hybrid": "6"
+  },
+  {
+    "pattern": "++",
+    "source": "Question: What is (2 + 1) + 5?\nAnswer:",
+    "target": "Question: What is (3 + 4) + 2?\nAnswer:",
+    "source_final": "8",
+    "source_intermediate": "3",
+    "target_final": "9",
+    "target_intermediate": "7",
+    "hybrid": "5"
+  },
+  {
+    "pattern": "+-",
+    "source": "Question: What is (6 + 1) - 5?\nAnswer:",
+    "target": "Question: What is (2 + 3) - 4?\nAnswer:",
+    "source_final": "2",
+    "source_intermediate": "7",
+    "target_final": "1",
+    "target_intermediate": "5",
+    "hybrid": "3"
+  },
+  {
+    "pattern": "--",
+    "source": "Question: What is (9 - 4) - 3?\nAnswer:",
+    "target": "Question: What is (9 - 1) - 1?\nAnswer:",
+    "source_final": "2",
+    "source_intermediate": "5",
+    "target_final": "7",
+    "target_intermediate": "8",
+    "hybrid": "4"
+  },
+  {
+    "pattern": "+-",
+    "source": "Question: What is (3 + 4) - 5?\nAnswer:",
+    "target": "Question: What is (2 + 3) - 1?\nAnswer:",
+    "source_final": "2",
+    "source_intermediate": "7",
+    "target_final": "4",
+    "target_intermediate": "5",
+    "hybrid": "6"
+  },
+  {
+    "pattern": "--",
+    "source": "Question: What is (7 - 1) - 2?\nAnswer:",
+    "target": "Question: What is (9 - 1) - 6?\nAnswer:",
+    "source_final": "4",
+    "source_intermediate": "6",
+    "target_final": "2",
+    "target_intermediate": "8",
+    "hybrid": "0"
+  },
+  {
+    "pattern": "*-",
+    "source": "Question: What is (3 * 3) - 1?\nAnswer:",
+    "target": "Question: What is (4 * 2) - 7?\nAnswer:",
+    "source_final": "8",
+    "source_intermediate": "9",
+    "target_final": "1",
+    "target_intermediate": "8",
+    "hybrid": "2"
+  },
+  {
+    "pattern": "-+",
+    "source": "Question: What is (7 - 3) + 2?\nAnswer:",
+    "target": "Question: What is (7 - 6) + 4?\nAnswer:",
+    "source_final": "6",
+    "source_intermediate": "4",
+    "target_final": "5",
+    "target_intermediate": "1",
+    "hybrid": "8"
+  },
+  {
+    "pattern": "++",
+    "source": "Question: What is (4 + 3) + 1?\nAnswer:",
+    "target": "Question: What is (2 + 1) + 2?\nAnswer:",
+    "source_final": "8",
+    "source_intermediate": "7",
+    "target_final": "5",
+    "target_intermediate": "3",
+    "hybrid": "9"
+  },
+  {
+    "pattern": "++",
+    "source": "Question: What is (1 + 5) + 2?\nAnswer:",
+    "target": "Question: What is (1 + 2) + 1?\nAnswer:",
+    "source_final": "8",
+    "source_intermediate": "6",
+    "target_final": "4",
+    "target_intermediate": "3",
+    "hybrid": "7"
+  },
+  {
+    "pattern": "*-",
+    "source": "Question: What is (4 * 2) - 5?\nAnswer:",
+    "target": "Question: What is (3 * 3) - 2?\nAnswer:",
+    "source_final": "3",
+    "source_intermediate": "8",
+    "target_final": "7",
+    "target_intermediate": "9",
+    "hybrid": "6"
+  },
+  {
+    "pattern": "+-",
+    "source": "Question: What is (4 + 4) - 5?\nAnswer:",
+    "target": "Question: What is (1 + 8) - 3?\nAnswer:",
+    "source_final": "3",
+    "source_intermediate": "8",
+    "target_final": "6",
+    "target_intermediate": "9",
+    "hybrid": "5"
+  },
+  {
+    "pattern": "--",
+    "source": "Question: What is (6 - 1) - 3?\nAnswer:",
+    "target": "Question: What is (9 - 1) - 2?\nAnswer:",
+    "source_final": "2",
+    "source_intermediate": "5",
+    "target_final": "6",
+    "target_intermediate": "8",
+    "hybrid": "3"
+  },
+  {
+    "pattern": "++",
+    "source": "Question: What is (2 + 3) + 1?\nAnswer:",
+    "target": "Question: What is (4 + 2) + 3?\nAnswer:",
+    "source_final": "6",
+    "source_intermediate": "5",
+    "target_final": "9",
+    "target_intermediate": "6",
+    "hybrid": "8"
+  },
+  {
+    "pattern": "++",
+    "source": "Question: What is (1 + 4) + 3?\nAnswer:",
+    "target": "Question: What is (1 + 7) + 1?\nAnswer:",
+    "source_final": "8",
+    "source_intermediate": "5",
+    "target_final": "9",
+    "target_intermediate": "8",
+    "hybrid": "6"
+  },
+  {
+    "pattern": "-+",
+    "source": "Question: What is (5 - 2) + 4?\nAnswer:",
+    "target": "Question: What is (9 - 7) + 3?\nAnswer:",
+    "source_final": "7",
+    "source_intermediate": "3",
+    "target_final": "5",
+    "target_intermediate": "2",
+    "hybrid": "6"
+  },
+  {
+    "pattern": "--",
+    "source": "Question: What is (7 - 1) - 2?\nAnswer:",
+    "target": "Question: What is (9 - 5) - 3?\nAnswer:",
+    "source_final": "4",
+    "source_intermediate": "6",
+    "target_final": "1",
+    "target_intermediate": "4",
+    "hybrid": "3"
+  },
+  {
+    "pattern": "++",
+    "source": "Question: What is (1 + 2) + 4?\nAnswer:",
+    "target": "Question: What is (2 + 3) + 3?\nAnswer:",
+    "source_final": "7",
+    "source_intermediate": "3",
+    "target_final": "8",
+    "target_intermediate": "5",
+    "hybrid": "6"
+  },
+  {
+    "pattern": "-+",
+    "source": "Question: What is (4 - 3) + 5?\nAnswer:",
+    "target": "Question: What is (4 - 1) + 4?\nAnswer:",
+    "source_final": "6",
+    "source_intermediate": "1",
+    "target_final": "7",
+    "target_intermediate": "3",
+    "hybrid": "5"
+  },
+  {
+    "pattern": "--",
+    "source": "Question: What is (9 - 1) - 3?\nAnswer:",
+    "target": "Question: What is (8 - 3) - 4?\nAnswer:",
+    "source_final": "5",
+    "source_intermediate": "8",
+    "target_final": "1",
+    "target_intermediate": "5",
+    "hybrid": "4"
+  },
+  {
+    "pattern": "+-",
+    "source": "Question: What is (7 + 2) - 4?\nAnswer:",
+    "target": "Question: What is (1 + 4) - 3?\nAnswer:",
+    "source_final": "5",
+    "source_intermediate": "9",
+    "target_final": "2",
+    "target_intermediate": "5",
+    "hybrid": "6"
+  },
+  {
+    "pattern": "+-",
+    "source": "Question: What is (1 + 4) - 2?\nAnswer:",
+    "target": "Question: What is (5 + 3) - 1?\nAnswer:",
+    "source_final": "3",
+    "source_intermediate": "5",
+    "target_final": "7",
+    "target_intermediate": "8",
+    "hybrid": "4"
+  },
+  {
+    "pattern": "++",
+    "source": "Question: What is (1 + 2) + 1?\nAnswer:",
+    "target": "Question: What is (2 + 3) + 3?\nAnswer:",
+    "source_final": "4",
+    "source_intermediate": "3",
+    "target_final": "8",
+    "target_intermediate": "5",
+    "hybrid": "6"
+  },
+  {
+    "pattern": "+-",
+    "source": "Question: What is (3 + 4) - 1?\nAnswer:",
+    "target": "Question: What is (5 + 3) - 7?\nAnswer:",
+    "source_final": "6",
+    "source_intermediate": "7",
+    "target_final": "1",
+    "target_intermediate": "8",
+    "hybrid": "0"
+  },
+  {
+    "pattern": "-+",
+    "source": "Question: What is (7 - 2) + 4?\nAnswer:",
+    "target": "Question: What is (9 - 7) + 3?\nAnswer:",
+    "source_final": "9",
+    "source_intermediate": "5",
+    "target_final": "5",
+    "target_intermediate": "2",
+    "hybrid": "8"
+  },
+  {
+    "pattern": "++",
+    "source": "Question: What is (5 + 1) + 1?\nAnswer:",
+    "target": "Question: What is (1 + 3) + 2?\nAnswer:",
+    "source_final": "7",
+    "source_intermediate": "6",
+    "target_final": "6",
+    "target_intermediate": "4",
+    "hybrid": "8"
+  },
+  {
+    "pattern": "+-",
+    "source": "Question: What is (2 + 3) - 4?\nAnswer:",
+    "target": "Question: What is (2 + 6) - 3?\nAnswer:",
+    "source_final": "1",
+    "source_intermediate": "5",
+    "target_final": "5",
+    "target_intermediate": "8",
+    "hybrid": "2"
+  },
+  {
+    "pattern": "+-",
+    "source": "Question: What is (6 + 3) - 1?\nAnswer:",
+    "target": "Question: What is (3 + 5) - 7?\nAnswer:",
+    "source_final": "8",
+    "source_intermediate": "9",
+    "target_final": "1",
+    "target_intermediate": "8",
+    "hybrid": "2"
+  },
+  {
+    "pattern": "-+",
+    "source": "Question: What is (4 - 3) + 6?\nAnswer:",
+    "target": "Question: What is (6 - 4) + 7?\nAnswer:",
+    "source_final": "7",
+    "source_intermediate": "1",
+    "target_final": "9",
+    "target_intermediate": "2",
+    "hybrid": "8"
+  },
+  {
+    "pattern": "-+",
+    "source": "Question: What is (3 - 2) + 6?\nAnswer:",
+    "target": "Question: What is (8 - 6) + 3?\nAnswer:",
+    "source_final": "7",
+    "source_intermediate": "1",
+    "target_final": "5",
+    "target_intermediate": "2",
+    "hybrid": "4"
+  },
+  {
+    "pattern": "+-",
+    "source": "Question: What is (1 + 6) - 3?\nAnswer:",
+    "target": "Question: What is (7 + 2) - 6?\nAnswer:",
+    "source_final": "4",
+    "source_intermediate": "7",
+    "target_final": "3",
+    "target_intermediate": "9",
+    "hybrid": "1"
+  },
+  {
+    "pattern": "+-",
+    "source": "Question: What is (3 + 5) - 6?\nAnswer:",
+    "target": "Question: What is (4 + 2) - 5?\nAnswer:",
+    "source_final": "2",
+    "source_intermediate": "8",
+    "target_final": "1",
+    "target_intermediate": "6",
+    "hybrid": "3"
+  },
+  {
+    "pattern": "--",
+    "source": "Question: What is (9 - 2) - 2?\nAnswer:",
+    "target": "Question: What is (5 - 1) - 1?\nAnswer:",
+    "source_final": "5",
+    "source_intermediate": "7",
+    "target_final": "3",
+    "target_intermediate": "4",
+    "hybrid": "6"
+  },
+  {
+    "pattern": "+-",
+    "source": "Question: What is (6 + 1) - 3?\nAnswer:",
+    "target": "Question: What is (3 + 6) - 2?\nAnswer:",
+    "source_final": "4",
+    "source_intermediate": "7",
+    "target_final": "7",
+    "target_intermediate": "9",
+    "hybrid": "5"
+  },
+  {
+    "pattern": "*-",
+    "source": "Question: What is (2 * 4) - 1?\nAnswer:",
+    "target": "Question: What is (2 * 3) - 5?\nAnswer:",
+    "source_final": "7",
+    "source_intermediate": "8",
+    "target_final": "1",
+    "target_intermediate": "6",
+    "hybrid": "3"
+  },
+  {
+    "pattern": "*-",
+    "source": "Question: What is (2 * 4) - 3?\nAnswer:",
+    "target": "Question: What is (2 * 2) - 1?\nAnswer:",
+    "source_final": "5",
+    "source_intermediate": "8",
+    "target_final": "3",
+    "target_intermediate": "4",
+    "hybrid": "7"
+  },
+  {
+    "pattern": "+-",
+    "source": "Question: What is (1 + 4) - 3?\nAnswer:",
+    "target": "Question: What is (3 + 6) - 4?\nAnswer:",
+    "source_final": "2",
+    "source_intermediate": "5",
+    "target_final": "5",
+    "target_intermediate": "9",
+    "hybrid": "1"
+  },
+  {
+    "pattern": "+-",
+    "source": "Question: What is (8 + 1) - 2?\nAnswer:",
+    "target": "Question: What is (6 + 1) - 3?\nAnswer:",
+    "source_final": "7",
+    "source_intermediate": "9",
+    "target_final": "4",
+    "target_intermediate": "7",
+    "hybrid": "6"
+  },
+  {
+    "pattern": "-+",
+    "source": "Question: What is (8 - 5) + 4?\nAnswer:",
+    "target": "Question: What is (9 - 2) + 1?\nAnswer:",
+    "source_final": "7",
+    "source_intermediate": "3",
+    "target_final": "8",
+    "target_intermediate": "7",
+    "hybrid": "4"
+  },
+  {
+    "pattern": "++",
+    "source": "Question: What is (2 + 3) + 2?\nAnswer:",
+    "target": "Question: What is (3 + 1) + 1?\nAnswer:",
+    "source_final": "7",
+    "source_intermediate": "5",
+    "target_final": "5",
+    "target_intermediate": "4",
+    "hybrid": "6"
+  },
+  {
+    "pattern": "-+",
+    "source": "Question: What is (5 - 1) + 3?\nAnswer:",
+    "target": "Question: What is (3 - 1) + 4?\nAnswer:",
+    "source_final": "7",
+    "source_intermediate": "4",
+    "target_final": "6",
+    "target_intermediate": "2",
+    "hybrid": "8"
+  },
+  {
+    "pattern": "++",
+    "source": "Question: What is (1 + 1) + 3?\nAnswer:",
+    "target": "Question: What is (1 + 5) + 2?\nAnswer:",
+    "source_final": "5",
+    "source_intermediate": "2",
+    "target_final": "8",
+    "target_intermediate": "6",
+    "hybrid": "4"
+  },
+  {
+    "pattern": "+-",
+    "source": "Question: What is (5 + 3) - 2?\nAnswer:",
+    "target": "Question: What is (3 + 6) - 4?\nAnswer:",
+    "source_final": "6",
+    "source_intermediate": "8",
+    "target_final": "5",
+    "target_intermediate": "9",
+    "hybrid": "4"
+  },
+  {
+    "pattern": "+-",
+    "source": "Question: What is (4 + 5) - 3?\nAnswer:",
+    "target": "Question: What is (4 + 1) - 2?\nAnswer:",
+    "source_final": "6",
+    "source_intermediate": "9",
+    "target_final": "3",
+    "target_intermediate": "5",
+    "hybrid": "7"
+  },
+  {
+    "pattern": "-+",
+    "source": "Question: What is (8 - 6) + 3?\nAnswer:",
+    "target": "Question: What is (8 - 5) + 4?\nAnswer:",
+    "source_final": "5",
+    "source_intermediate": "2",
+    "target_final": "7",
+    "target_intermediate": "3",
+    "hybrid": "6"
+  },
+  {
+    "pattern": "-+",
+    "source": "Question: What is (6 - 5) + 6?\nAnswer:",
+    "target": "Question: What is (8 - 6) + 7?\nAnswer:",
+    "source_final": "7",
+    "source_intermediate": "1",
+    "target_final": "9",
+    "target_intermediate": "2",
+    "hybrid": "8"
+  },
+  {
+    "pattern": "--",
+    "source": "Question: What is (9 - 3) - 5?\nAnswer:",
+    "target": "Question: What is (8 - 1) - 2?\nAnswer:",
+    "source_final": "1",
+    "source_intermediate": "6",
+    "target_final": "5",
+    "target_intermediate": "7",
+    "hybrid": "4"
+  },
+  {
+    "pattern": "--",
+    "source": "Question: What is (7 - 2) - 2?\nAnswer:",
+    "target": "Question: What is (9 - 2) - 1?\nAnswer:",
+    "source_final": "3",
+    "source_intermediate": "5",
+    "target_final": "6",
+    "target_intermediate": "7",
+    "hybrid": "4"
+  },
+  {
+    "pattern": "++",
+    "source": "Question: What is (2 + 1) + 2?\nAnswer:",
+    "target": "Question: What is (2 + 2) + 3?\nAnswer:",
+    "source_final": "5",
+    "source_intermediate": "3",
+    "target_final": "7",
+    "target_intermediate": "4",
+    "hybrid": "6"
+  },
+  {
+    "pattern": "+-",
+    "source": "Question: What is (4 + 4) - 1?\nAnswer:",
+    "target": "Question: What is (8 + 1) - 4?\nAnswer:",
+    "source_final": "7",
+    "source_intermediate": "8",
+    "target_final": "5",
+    "target_intermediate": "9",
+    "hybrid": "4"
+  },
+  {
+    "pattern": "--",
+    "source": "Question: What is (4 - 1) - 1?\nAnswer:",
+    "target": "Question: What is (7 - 3) - 3?\nAnswer:",
+    "source_final": "2",
+    "source_intermediate": "3",
+    "target_final": "1",
+    "target_intermediate": "4",
+    "hybrid": "0"
+  },
+  {
+    "pattern": "+-",
+    "source": "Question: What is (5 + 3) - 2?\nAnswer:",
+    "target": "Question: What is (3 + 4) - 6?\nAnswer:",
+    "source_final": "6",
+    "source_intermediate": "8",
+    "target_final": "1",
+    "target_intermediate": "7",
+    "hybrid": "2"
+  },
+  {
+    "pattern": "+-",
+    "source": "Question: What is (3 + 4) - 2?\nAnswer:",
+    "target": "Question: What is (2 + 3) - 4?\nAnswer:",
+    "source_final": "5",
+    "source_intermediate": "7",
+    "target_final": "1",
+    "target_intermediate": "5",
+    "hybrid": "3"
+  },
+  {
+    "pattern": "--",
+    "source": "Question: What is (9 - 4) - 2?\nAnswer:",
+    "target": "Question: What is (7 - 3) - 3?\nAnswer:",
+    "source_final": "3",
+    "source_intermediate": "5",
+    "target_final": "1",
+    "target_intermediate": "4",
+    "hybrid": "2"
+  },
+  {
+    "pattern": "-+",
+    "source": "Question: What is (7 - 5) + 7?\nAnswer:",
+    "target": "Question: What is (8 - 5) + 4?\nAnswer:",
+    "source_final": "9",
+    "source_intermediate": "2",
+    "target_final": "7",
+    "target_intermediate": "3",
+    "hybrid": "6"
+  },
+  {
+    "pattern": "+-",
+    "source": "Question: What is (2 + 5) - 4?\nAnswer:",
+    "target": "Question: What is (3 + 6) - 1?\nAnswer:",
+    "source_final": "3",
+    "source_intermediate": "7",
+    "target_final": "8",
+    "target_intermediate": "9",
+    "hybrid": "6"
+  },
+  {
+    "pattern": "-+",
+    "source": "Question: What is (7 - 5) + 7?\nAnswer:",
+    "target": "Question: What is (6 - 5) + 3?\nAnswer:",
+    "source_final": "9",
+    "source_intermediate": "2",
+    "target_final": "4",
+    "target_intermediate": "1",
+    "hybrid": "5"
+  },
+  {
+    "pattern": "--",
+    "source": "Question: What is (9 - 1) - 2?\nAnswer:",
+    "target": "Question: What is (8 - 2) - 1?\nAnswer:",
+    "source_final": "6",
+    "source_intermediate": "8",
+    "target_final": "5",
+    "target_intermediate": "6",
+    "hybrid": "7"
+  },
+  {
+    "pattern": "-+",
+    "source": "Question: What is (9 - 6) + 4?\nAnswer:",
+    "target": "Question: What is (7 - 5) + 1?\nAnswer:",
+    "source_final": "7",
+    "source_intermediate": "3",
+    "target_final": "3",
+    "target_intermediate": "2",
+    "hybrid": "4"
+  },
+  {
+    "pattern": "-+",
+    "source": "Question: What is (5 - 2) + 6?\nAnswer:",
+    "target": "Question: What is (9 - 7) + 1?\nAnswer:",
+    "source_final": "9",
+    "source_intermediate": "3",
+    "target_final": "3",
+    "target_intermediate": "2",
+    "hybrid": "4"
+  },
+  {
+    "pattern": "--",
+    "source": "Question: What is (5 - 1) - 1?\nAnswer:",
+    "target": "Question: What is (9 - 1) - 2?\nAnswer:",
+    "source_final": "3",
+    "source_intermediate": "4",
+    "target_final": "6",
+    "target_intermediate": "8",
+    "hybrid": "2"
+  },
+  {
+    "pattern": "--",
+    "source": "Question: What is (9 - 3) - 1?\nAnswer:",
+    "target": "Question: What is (7 - 2) - 4?\nAnswer:",
+    "source_final": "5",
+    "source_intermediate": "6",
+    "target_final": "1",
+    "target_intermediate": "5",
+    "hybrid": "2"
+  },
+  {
+    "pattern": "++",
+    "source": "Question: What is (1 + 2) + 4?\nAnswer:",
+    "target": "Question: What is (1 + 7) + 1?\nAnswer:",
+    "source_final": "7",
+    "source_intermediate": "3",
+    "target_final": "9",
+    "target_intermediate": "8",
+    "hybrid": "4"
+  },
+  {
+    "pattern": "++",
+    "source": "Question: What is (1 + 2) + 1?\nAnswer:",
+    "target": "Question: What is (1 + 1) + 6?\nAnswer:",
+    "source_final": "4",
+    "source_intermediate": "3",
+    "target_final": "8",
+    "target_intermediate": "2",
+    "hybrid": "9"
+  },
+  {
+    "pattern": "-+",
+    "source": "Question: What is (9 - 4) + 1?\nAnswer:",
+    "target": "Question: What is (4 - 3) + 4?\nAnswer:",
+    "source_final": "6",
+    "source_intermediate": "5",
+    "target_final": "5",
+    "target_intermediate": "1",
+    "hybrid": "9"
+  },
+  {
+    "pattern": "+-",
+    "source": "Question: What is (3 + 5) - 7?\nAnswer:",
+    "target": "Question: What is (5 + 4) - 2?\nAnswer:",
+    "source_final": "1",
+    "source_intermediate": "8",
+    "target_final": "7",
+    "target_intermediate": "9",
+    "hybrid": "6"
+  },
+  {
+    "pattern": "+-",
+    "source": "Question: What is (2 + 6) - 3?\nAnswer:",
+    "target": "Question: What is (4 + 3) - 6?\nAnswer:",
+    "source_final": "5",
+    "source_intermediate": "8",
+    "target_final": "1",
+    "target_intermediate": "7",
+    "hybrid": "2"
+  },
+  {
+    "pattern": "+-",
+    "source": "Question: What is (3 + 6) - 4?\nAnswer:",
+    "target": "Question: What is (4 + 3) - 5?\nAnswer:",
+    "source_final": "5",
+    "source_intermediate": "9",
+    "target_final": "2",
+    "target_intermediate": "7",
+    "hybrid": "4"
+  },
+  {
+    "pattern": "--",
+    "source": "Question: What is (7 - 1) - 2?\nAnswer:",
+    "target": "Question: What is (7 - 4) - 1?\nAnswer:",
+    "source_final": "4",
+    "source_intermediate": "6",
+    "target_final": "2",
+    "target_intermediate": "3",
+    "hybrid": "5"
+  },
+  {
+    "pattern": "++",
+    "source": "Question: What is (2 + 3) + 3?\nAnswer:",
+    "target": "Question: What is (2 + 1) + 2?\nAnswer:",
+    "source_final": "8",
+    "source_intermediate": "5",
+    "target_final": "5",
+    "target_intermediate": "3",
+    "hybrid": "7"
+  },
+  {
+    "pattern": "+-",
+    "source": "Question: What is (2 + 6) - 3?\nAnswer:",
+    "target": "Question: What is (8 + 1) - 7?\nAnswer:",
+    "source_final": "5",
+    "source_intermediate": "8",
+    "target_final": "2",
+    "target_intermediate": "9",
+    "hybrid": "1"
+  },
+  {
+    "pattern": "*+",
+    "source": "Question: What is (2 * 3) + 1?\nAnswer:",
+    "target": "Question: What is (2 * 2) + 2?\nAnswer:",
+    "source_final": "7",
+    "source_intermediate": "6",
+    "target_final": "6",
+    "target_intermediate": "4",
+    "hybrid": "8"
+  },
+  {
+    "pattern": "--",
+    "source": "Question: What is (9 - 1) - 6?\nAnswer:",
+    "target": "Question: What is (8 - 3) - 1?\nAnswer:",
+    "source_final": "2",
+    "source_intermediate": "8",
+    "target_final": "4",
+    "target_intermediate": "5",
+    "hybrid": "7"
+  },
+  {
+    "pattern": "*-",
+    "source": "Question: What is (4 * 2) - 2?\nAnswer:",
+    "target": "Question: What is (2 * 3) - 1?\nAnswer:",
+    "source_final": "6",
+    "source_intermediate": "8",
+    "target_final": "5",
+    "target_intermediate": "6",
+    "hybrid": "7"
+  },
+  {
+    "pattern": "-+",
+    "source": "Question: What is (4 - 3) + 6?\nAnswer:",
+    "target": "Question: What is (8 - 5) + 1?\nAnswer:",
+    "source_final": "7",
+    "source_intermediate": "1",
+    "target_final": "4",
+    "target_intermediate": "3",
+    "hybrid": "2"
+  },
+  {
+    "pattern": "+-",
+    "source": "Question: What is (4 + 5) - 1?\nAnswer:",
+    "target": "Question: What is (1 + 4) - 2?\nAnswer:",
+    "source_final": "8",
+    "source_intermediate": "9",
+    "target_final": "3",
+    "target_intermediate": "5",
+    "hybrid": "7"
+  },
+  {
+    "pattern": "--",
+    "source": "Question: What is (9 - 4) - 2?\nAnswer:",
+    "target": "Question: What is (8 - 1) - 5?\nAnswer:",
+    "source_final": "3",
+    "source_intermediate": "5",
+    "target_final": "2",
+    "target_intermediate": "7",
+    "hybrid": "0"
+  },
+  {
+    "pattern": "++",
+    "source": "Question: What is (1 + 1) + 6?\nAnswer:",
+    "target": "Question: What is (3 + 2) + 1?\nAnswer:",
+    "source_final": "8",
+    "source_intermediate": "2",
+    "target_final": "6",
+    "target_intermediate": "5",
+    "hybrid": "3"
+  },
+  {
+    "pattern": "-+",
+    "source": "Question: What is (4 - 3) + 6?\nAnswer:",
+    "target": "Question: What is (7 - 5) + 7?\nAnswer:",
+    "source_final": "7",
+    "source_intermediate": "1",
+    "target_final": "9",
+    "target_intermediate": "2",
+    "hybrid": "8"
+  },
+  {
+    "pattern": "--",
+    "source": "Question: What is (6 - 2) - 1?\nAnswer:",
+    "target": "Question: What is (9 - 1) - 2?\nAnswer:",
+    "source_final": "3",
+    "source_intermediate": "4",
+    "target_final": "6",
+    "target_intermediate": "8",
+    "hybrid": "2"
+  },
+  {
+    "pattern": "++",
+    "source": "Question: What is (3 + 1) + 5?\nAnswer:",
+    "target": "Question: What is (3 + 3) + 1?\nAnswer:",
+    "source_final": "9",
+    "source_intermediate": "4",
+    "target_final": "7",
+    "target_intermediate": "6",
+    "hybrid": "5"
+  },
+  {
+    "pattern": "*+",
+    "source": "Question: What is (2 * 2) + 2?\nAnswer:",
+    "target": "Question: What is (4 * 2) + 1?\nAnswer:",
+    "source_final": "6",
+    "source_intermediate": "4",
+    "target_final": "9",
+    "target_intermediate": "8",
+    "hybrid": "5"
+  },
+  {
+    "pattern": "--",
+    "source": "Question: What is (8 - 5) - 2?\nAnswer:",
+    "target": "Question: What is (8 - 2) - 1?\nAnswer:",
+    "source_final": "1",
+    "source_intermediate": "3",
+    "target_final": "5",
+    "target_intermediate": "6",
+    "hybrid": "2"
+  },
+  {
+    "pattern": "+-",
+    "source": "Question: What is (4 + 4) - 5?\nAnswer:",
+    "target": "Question: What is (5 + 4) - 2?\nAnswer:",
+    "source_final": "3",
+    "source_intermediate": "8",
+    "target_final": "7",
+    "target_intermediate": "9",
+    "hybrid": "6"
+  },
+  {
+    "pattern": "--",
+    "source": "Question: What is (7 - 2) - 4?\nAnswer:",
+    "target": "Question: What is (9 - 1) - 2?\nAnswer:",
+    "source_final": "1",
+    "source_intermediate": "5",
+    "target_final": "6",
+    "target_intermediate": "8",
+    "hybrid": "3"
+  },
+  {
+    "pattern": "+-",
+    "source": "Question: What is (6 + 3) - 8?\nAnswer:",
+    "target": "Question: What is (3 + 5) - 2?\nAnswer:",
+    "source_final": "1",
+    "source_intermediate": "9",
+    "target_final": "6",
+    "target_intermediate": "8",
+    "hybrid": "7"
+  },
+  {
+    "pattern": "++",
+    "source": "Question: What is (1 + 3) + 5?\nAnswer:",
+    "target": "Question: What is (4 + 1) + 2?\nAnswer:",
+    "source_final": "9",
+    "source_intermediate": "4",
+    "target_final": "7",
+    "target_intermediate": "5",
+    "hybrid": "6"
+  },
+  {
+    "pattern": "--",
+    "source": "Question: What is (7 - 2) - 1?\nAnswer:",
+    "target": "Question: What is (9 - 1) - 3?\nAnswer:",
+    "source_final": "4",
+    "source_intermediate": "5",
+    "target_final": "5",
+    "target_intermediate": "8",
+    "hybrid": "2"
+  },
+  {
+    "pattern": "++",
+    "source": "Question: What is (1 + 1) + 6?\nAnswer:",
+    "target": "Question: What is (1 + 2) + 4?\nAnswer:",
+    "source_final": "8",
+    "source_intermediate": "2",
+    "target_final": "7",
+    "target_intermediate": "3",
+    "hybrid": "6"
+  },
+  {
+    "pattern": "+-",
+    "source": "Question: What is (2 + 6) - 3?\nAnswer:",
+    "target": "Question: What is (4 + 5) - 2?\nAnswer:",
+    "source_final": "5",
+    "source_intermediate": "8",
+    "target_final": "7",
+    "target_intermediate": "9",
+    "hybrid": "6"
+  },
+  {
+    "pattern": "-+",
+    "source": "Question: What is (8 - 5) + 1?\nAnswer:",
+    "target": "Question: What is (7 - 2) + 3?\nAnswer:",
+    "source_final": "4",
+    "source_intermediate": "3",
+    "target_final": "8",
+    "target_intermediate": "5",
+    "hybrid": "6"
+  },
+  {
+    "pattern": "+-",
+    "source": "Question: What is (5 + 3) - 2?\nAnswer:",
+    "target": "Question: What is (5 + 4) - 7?\nAnswer:",
+    "source_final": "6",
+    "source_intermediate": "8",
+    "target_final": "2",
+    "target_intermediate": "9",
+    "hybrid": "1"
+  },
+  {
+    "pattern": "-+",
+    "source": "Question: What is (6 - 4) + 7?\nAnswer:",
+    "target": "Question: What is (9 - 6) + 4?\nAnswer:",
+    "source_final": "9",
+    "source_intermediate": "2",
+    "target_final": "7",
+    "target_intermediate": "3",
+    "hybrid": "6"
+  },
+  {
+    "pattern": "++",
+    "source": "Question: What is (3 + 1) + 2?\nAnswer:",
+    "target": "Question: What is (2 + 1) + 5?\nAnswer:",
+    "source_final": "6",
+    "source_intermediate": "4",
+    "target_final": "8",
+    "target_intermediate": "3",
+    "hybrid": "9"
+  },
+  {
+    "pattern": "+-",
+    "source": "Question: What is (5 + 3) - 1?\nAnswer:",
+    "target": "Question: What is (5 + 4) - 6?\nAnswer:",
+    "source_final": "7",
+    "source_intermediate": "8",
+    "target_final": "3",
+    "target_intermediate": "9",
+    "hybrid": "2"
+  },
+  {
+    "pattern": "-+",
+    "source": "Question: What is (9 - 3) + 2?\nAnswer:",
+    "target": "Question: What is (6 - 5) + 3?\nAnswer:",
+    "source_final": "8",
+    "source_intermediate": "6",
+    "target_final": "4",
+    "target_intermediate": "1",
+    "hybrid": "9"
+  },
+  {
+    "pattern": "++",
+    "source": "Question: What is (1 + 1) + 3?\nAnswer:",
+    "target": "Question: What is (4 + 3) + 2?\nAnswer:",
+    "source_final": "5",
+    "source_intermediate": "2",
+    "target_final": "9",
+    "target_intermediate": "7",
+    "hybrid": "4"
+  },
+  {
+    "pattern": "-+",
+    "source": "Question: What is (7 - 4) + 6?\nAnswer:",
+    "target": "Question: What is (3 - 1) + 4?\nAnswer:",
+    "source_final": "9",
+    "source_intermediate": "3",
+    "target_final": "6",
+    "target_intermediate": "2",
+    "hybrid": "7"
+  },
+  {
+    "pattern": "++",
+    "source": "Question: What is (1 + 6) + 1?\nAnswer:",
+    "target": "Question: What is (4 + 1) + 2?\nAnswer:",
+    "source_final": "8",
+    "source_intermediate": "7",
+    "target_final": "7",
+    "target_intermediate": "5",
+    "hybrid": "9"
+  },
+  {
+    "pattern": "--",
+    "source": "Question: What is (7 - 1) - 2?\nAnswer:",
+    "target": "Question: What is (6 - 1) - 3?\nAnswer:",
+    "source_final": "4",
+    "source_intermediate": "6",
+    "target_final": "2",
+    "target_intermediate": "5",
+    "hybrid": "3"
+  },
+  {
+    "pattern": "-+",
+    "source": "Question: What is (5 - 1) + 3?\nAnswer:",
+    "target": "Question: What is (9 - 7) + 1?\nAnswer:",
+    "source_final": "7",
+    "source_intermediate": "4",
+    "target_final": "3",
+    "target_intermediate": "2",
+    "hybrid": "5"
+  },
+  {
+    "pattern": "*-",
+    "source": "Question: What is (3 * 3) - 7?\nAnswer:",
+    "target": "Question: What is (4 * 2) - 3?\nAnswer:",
+    "source_final": "2",
+    "source_intermediate": "9",
+    "target_final": "5",
+    "target_intermediate": "8",
+    "hybrid": "6"
+  },
+  {
+    "pattern": "--",
+    "source": "Question: What is (8 - 1) - 2?\nAnswer:",
+    "target": "Question: What is (8 - 3) - 1?\nAnswer:",
+    "source_final": "5",
+    "source_intermediate": "7",
+    "target_final": "4",
+    "target_intermediate": "5",
+    "hybrid": "6"
+  },
+  {
+    "pattern": "+-",
+    "source": "Question: What is (4 + 5) - 2?\nAnswer:",
+    "target": "Question: What is (6 + 2) - 5?\nAnswer:",
+    "source_final": "7",
+    "source_intermediate": "9",
+    "target_final": "3",
+    "target_intermediate": "8",
+    "hybrid": "4"
+  },
+  {
+    "pattern": "+-",
+    "source": "Question: What is (3 + 5) - 6?\nAnswer:",
+    "target": "Question: What is (4 + 5) - 2?\nAnswer:",
+    "source_final": "2",
+    "source_intermediate": "8",
+    "target_final": "7",
+    "target_intermediate": "9",
+    "hybrid": "6"
+  },
+  {
+    "pattern": "-+",
+    "source": "Question: What is (7 - 5) + 4?\nAnswer:",
+    "target": "Question: What is (8 - 1) + 2?\nAnswer:",
+    "source_final": "6",
+    "source_intermediate": "2",
+    "target_final": "9",
+    "target_intermediate": "7",
+    "hybrid": "4"
+  },
+  {
+    "pattern": "*-",
+    "source": "Question: What is (2 * 4) - 1?\nAnswer:",
+    "target": "Question: What is (3 * 3) - 3?\nAnswer:",
+    "source_final": "7",
+    "source_intermediate": "8",
+    "target_final": "6",
+    "target_intermediate": "9",
+    "hybrid": "5"
+  },
+  {
+    "pattern": "-+",
+    "source": "Question: What is (6 - 4) + 7?\nAnswer:",
+    "target": "Question: What is (4 - 1) + 4?\nAnswer:",
+    "source_final": "9",
+    "source_intermediate": "2",
+    "target_final": "7",
+    "target_intermediate": "3",
+    "hybrid": "6"
+  },
+  {
+    "pattern": "--",
+    "source": "Question: What is (6 - 2) - 3?\nAnswer:",
+    "target": "Question: What is (9 - 2) - 2?\nAnswer:",
+    "source_final": "1",
+    "source_intermediate": "4",
+    "target_final": "5",
+    "target_intermediate": "7",
+    "hybrid": "2"
+  },
+  {
+    "pattern": "-+",
+    "source": "Question: What is (8 - 6) + 3?\nAnswer:",
+    "target": "Question: What is (9 - 2) + 1?\nAnswer:",
+    "source_final": "5",
+    "source_intermediate": "2",
+    "target_final": "8",
+    "target_intermediate": "7",
+    "hybrid": "3"
+  },
+  {
+    "pattern": "++",
+    "source": "Question: What is (3 + 3) + 2?\nAnswer:",
+    "target": "Question: What is (3 + 1) + 3?\nAnswer:",
+    "source_final": "8",
+    "source_intermediate": "6",
+    "target_final": "7",
+    "target_intermediate": "4",
+    "hybrid": "9"
+  },
+  {
+    "pattern": "--",
+    "source": "Question: What is (9 - 1) - 1?\nAnswer:",
+    "target": "Question: What is (7 - 4) - 2?\nAnswer:",
+    "source_final": "7",
+    "source_intermediate": "8",
+    "target_final": "1",
+    "target_intermediate": "3",
+    "hybrid": "6"
+  },
+  {
+    "pattern": "+-",
+    "source": "Question: What is (3 + 4) - 2?\nAnswer:",
+    "target": "Question: What is (1 + 8) - 6?\nAnswer:",
+    "source_final": "5",
+    "source_intermediate": "7",
+    "target_final": "3",
+    "target_intermediate": "9",
+    "hybrid": "1"
+  },
+  {
+    "pattern": "-+",
+    "source": "Question: What is (8 - 5) + 4?\nAnswer:",
+    "target": "Question: What is (4 - 3) + 5?\nAnswer:",
+    "source_final": "7",
+    "source_intermediate": "3",
+    "target_final": "6",
+    "target_intermediate": "1",
+    "hybrid": "8"
+  },
+  {
+    "pattern": "-+",
+    "source": "Question: What is (8 - 6) + 7?\nAnswer:",
+    "target": "Question: What is (7 - 6) + 4?\nAnswer:",
+    "source_final": "9",
+    "source_intermediate": "2",
+    "target_final": "5",
+    "target_intermediate": "1",
+    "hybrid": "6"
+  },
+  {
+    "pattern": "-+",
+    "source": "Question: What is (9 - 7) + 4?\nAnswer:",
+    "target": "Question: What is (8 - 7) + 3?\nAnswer:",
+    "source_final": "6",
+    "source_intermediate": "2",
+    "target_final": "4",
+    "target_intermediate": "1",
+    "hybrid": "5"
+  },
+  {
+    "pattern": "+-",
+    "source": "Question: What is (1 + 4) - 2?\nAnswer:",
+    "target": "Question: What is (4 + 2) - 5?\nAnswer:",
+    "source_final": "3",
+    "source_intermediate": "5",
+    "target_final": "1",
+    "target_intermediate": "6",
+    "hybrid": "0"
+  },
+  {
+    "pattern": "+-",
+    "source": "Question: What is (5 + 1) - 2?\nAnswer:",
+    "target": "Question: What is (4 + 5) - 1?\nAnswer:",
+    "source_final": "4",
+    "source_intermediate": "6",
+    "target_final": "8",
+    "target_intermediate": "9",
+    "hybrid": "5"
+  },
+  {
+    "pattern": "+-",
+    "source": "Question: What is (6 + 3) - 1?\nAnswer:",
+    "target": "Question: What is (3 + 5) - 2?\nAnswer:",
+    "source_final": "8",
+    "source_intermediate": "9",
+    "target_final": "6",
+    "target_intermediate": "8",
+    "hybrid": "7"
+  },
+  {
+    "pattern": "--",
+    "source": "Question: What is (4 - 1) - 1?\nAnswer:",
+    "target": "Question: What is (9 - 2) - 2?\nAnswer:",
+    "source_final": "2",
+    "source_intermediate": "3",
+    "target_final": "5",
+    "target_intermediate": "7",
+    "hybrid": "1"
+  },
+  {
+    "pattern": "+-",
+    "source": "Question: What is (4 + 4) - 1?\nAnswer:",
+    "target": "Question: What is (4 + 5) - 3?\nAnswer:",
+    "source_final": "7",
+    "source_intermediate": "8",
+    "target_final": "6",
+    "target_intermediate": "9",
+    "hybrid": "5"
+  },
+  {
+    "pattern": "--",
+    "source": "Question: What is (8 - 2) - 1?\nAnswer:",
+    "target": "Question: What is (9 - 2) - 3?\nAnswer:",
+    "source_final": "5",
+    "source_intermediate": "6",
+    "target_final": "4",
+    "target_intermediate": "7",
+    "hybrid": "3"
+  },
+  {
+    "pattern": "+-",
+    "source": "Question: What is (3 + 6) - 2?\nAnswer:",
+    "target": "Question: What is (6 + 2) - 5?\nAnswer:",
+    "source_final": "7",
+    "source_intermediate": "9",
+    "target_final": "3",
+    "target_intermediate": "8",
+    "hybrid": "4"
+  },
+  {
+    "pattern": "--",
+    "source": "Question: What is (8 - 1) - 2?\nAnswer:",
+    "target": "Question: What is (6 - 2) - 1?\nAnswer:",
+    "source_final": "5",
+    "source_intermediate": "7",
+    "target_final": "3",
+    "target_intermediate": "4",
+    "hybrid": "6"
+  },
+  {
+    "pattern": "-+",
+    "source": "Question: What is (8 - 5) + 1?\nAnswer:",
+    "target": "Question: What is (4 - 3) + 5?\nAnswer:",
+    "source_final": "4",
+    "source_intermediate": "3",
+    "target_final": "6",
+    "target_intermediate": "1",
+    "hybrid": "8"
+  },
+  {
+    "pattern": "+-",
+    "source": "Question: What is (3 + 6) - 2?\nAnswer:",
+    "target": "Question: What is (2 + 5) - 3?\nAnswer:",
+    "source_final": "7",
+    "source_intermediate": "9",
+    "target_final": "4",
+    "target_intermediate": "7",
+    "hybrid": "6"
+  },
+  {
+    "pattern": "--",
+    "source": "Question: What is (7 - 1) - 1?\nAnswer:",
+    "target": "Question: What is (9 - 5) - 3?\nAnswer:",
+    "source_final": "5",
+    "source_intermediate": "6",
+    "target_final": "1",
+    "target_intermediate": "4",
+    "hybrid": "3"
+  },
+  {
+    "pattern": "--",
+    "source": "Question: What is (6 - 2) - 1?\nAnswer:",
+    "target": "Question: What is (9 - 2) - 3?\nAnswer:",
+    "source_final": "3",
+    "source_intermediate": "4",
+    "target_final": "4",
+    "target_intermediate": "7",
+    "hybrid": "1"
+  },
+  {
+    "pattern": "--",
+    "source": "Question: What is (7 - 4) - 1?\nAnswer:",
+    "target": "Question: What is (7 - 1) - 2?\nAnswer:",
+    "source_final": "2",
+    "source_intermediate": "3",
+    "target_final": "4",
+    "target_intermediate": "6",
+    "hybrid": "1"
+  },
+  {
+    "pattern": "++",
+    "source": "Question: What is (1 + 1) + 6?\nAnswer:",
+    "target": "Question: What is (3 + 1) + 1?\nAnswer:",
+    "source_final": "8",
+    "source_intermediate": "2",
+    "target_final": "5",
+    "target_intermediate": "4",
+    "hybrid": "3"
+  },
+  {
+    "pattern": "++",
+    "source": "Question: What is (1 + 1) + 7?\nAnswer:",
+    "target": "Question: What is (2 + 2) + 3?\nAnswer:",
+    "source_final": "9",
+    "source_intermediate": "2",
+    "target_final": "7",
+    "target_intermediate": "4",
+    "hybrid": "5"
+  },
+  {
+    "pattern": "+-",
+    "source": "Question: What is (4 + 5) - 1?\nAnswer:",
+    "target": "Question: What is (2 + 5) - 3?\nAnswer:",
+    "source_final": "8",
+    "source_intermediate": "9",
+    "target_final": "4",
+    "target_intermediate": "7",
+    "hybrid": "6"
+  },
+  {
+    "pattern": "-+",
+    "source": "Question: What is (7 - 5) + 1?\nAnswer:",
+    "target": "Question: What is (9 - 6) + 4?\nAnswer:",
+    "source_final": "3",
+    "source_intermediate": "2",
+    "target_final": "7",
+    "target_intermediate": "3",
+    "hybrid": "6"
+  },
+  {
+    "pattern": "-+",
+    "source": "Question: What is (3 - 2) + 3?\nAnswer:",
+    "target": "Question: What is (7 - 3) + 2?\nAnswer:",
+    "source_final": "4",
+    "source_intermediate": "1",
+    "target_final": "6",
+    "target_intermediate": "4",
+    "hybrid": "3"
+  },
+  {
+    "pattern": "--",
+    "source": "Question: What is (6 - 2) - 3?\nAnswer:",
+    "target": "Question: What is (9 - 2) - 1?\nAnswer:",
+    "source_final": "1",
+    "source_intermediate": "4",
+    "target_final": "6",
+    "target_intermediate": "7",
+    "hybrid": "3"
+  },
+  {
+    "pattern": "--",
+    "source": "Question: What is (9 - 3) - 4?\nAnswer:",
+    "target": "Question: What is (8 - 1) - 2?\nAnswer:",
+    "source_final": "2",
+    "source_intermediate": "6",
+    "target_final": "5",
+    "target_intermediate": "7",
+    "hybrid": "4"
+  },
+  {
+    "pattern": "+-",
+    "source": "Question: What is (7 + 1) - 3?\nAnswer:",
+    "target": "Question: What is (5 + 4) - 6?\nAnswer:",
+    "source_final": "5",
+    "source_intermediate": "8",
+    "target_final": "3",
+    "target_intermediate": "9",
+    "hybrid": "2"
+  },
+  {
+    "pattern": "--",
+    "source": "Question: What is (9 - 5) - 1?\nAnswer:",
+    "target": "Question: What is (8 - 3) - 4?\nAnswer:",
+    "source_final": "3",
+    "source_intermediate": "4",
+    "target_final": "1",
+    "target_intermediate": "5",
+    "hybrid": "0"
+  },
+  {
+    "pattern": "-+",
+    "source": "Question: What is (9 - 7) + 1?\nAnswer:",
+    "target": "Question: What is (5 - 4) + 5?\nAnswer:",
+    "source_final": "3",
+    "source_intermediate": "2",
+    "target_final": "6",
+    "target_intermediate": "1",
+    "hybrid": "7"
+  },
+  {
+    "pattern": "--",
+    "source": "Question: What is (8 - 1) - 3?\nAnswer:",
+    "target": "Question: What is (9 - 1) - 1?\nAnswer:",
+    "source_final": "4",
+    "source_intermediate": "7",
+    "target_final": "7",
+    "target_intermediate": "8",
+    "hybrid": "6"
+  },
+  {
+    "pattern": "-+",
+    "source": "Question: What is (3 - 1) + 4?\nAnswer:",
+    "target": "Question: What is (8 - 1) + 2?\nAnswer:",
+    "source_final": "6",
+    "source_intermediate": "2",
+    "target_final": "9",
+    "target_intermediate": "7",
+    "hybrid": "4"
+  },
+  {
+    "pattern": "-+",
+    "source": "Question: What is (8 - 2) + 1?\nAnswer:",
+    "target": "Question: What is (9 - 7) + 3?\nAnswer:",
+    "source_final": "7",
+    "source_intermediate": "6",
+    "target_final": "5",
+    "target_intermediate": "2",
+    "hybrid": "9"
+  },
+  {
+    "pattern": "--",
+    "source": "Question: What is (8 - 3) - 3?\nAnswer:",
+    "target": "Question: What is (9 - 3) - 2?\nAnswer:",
+    "source_final": "2",
+    "source_intermediate": "5",
+    "target_final": "4",
+    "target_intermediate": "6",
+    "hybrid": "3"
+  },
+  {
+    "pattern": "--",
+    "source": "Question: What is (7 - 2) - 2?\nAnswer:",
+    "target": "Question: What is (4 - 1) - 1?\nAnswer:",
+    "source_final": "3",
+    "source_intermediate": "5",
+    "target_final": "2",
+    "target_intermediate": "3",
+    "hybrid": "4"
+  },
+  {
+    "pattern": "-+",
+    "source": "Question: What is (6 - 4) + 3?\nAnswer:",
+    "target": "Question: What is (7 - 4) + 6?\nAnswer:",
+    "source_final": "5",
+    "source_intermediate": "2",
+    "target_final": "9",
+    "target_intermediate": "3",
+    "hybrid": "8"
+  },
+  {
+    "pattern": "--",
+    "source": "Question: What is (9 - 4) - 3?\nAnswer:",
+    "target": "Question: What is (8 - 2) - 5?\nAnswer:",
+    "source_final": "2",
+    "source_intermediate": "5",
+    "target_final": "1",
+    "target_intermediate": "6",
+    "hybrid": "0"
+  },
+  {
+    "pattern": "++",
+    "source": "Question: What is (5 + 1) + 2?\nAnswer:",
+    "target": "Question: What is (1 + 1) + 1?\nAnswer:",
+    "source_final": "8",
+    "source_intermediate": "6",
+    "target_final": "3",
+    "target_intermediate": "2",
+    "hybrid": "7"
+  },
+  {
+    "pattern": "--",
+    "source": "Question: What is (9 - 1) - 5?\nAnswer:",
+    "target": "Question: What is (9 - 2) - 6?\nAnswer:",
+    "source_final": "3",
+    "source_intermediate": "8",
+    "target_final": "1",
+    "target_intermediate": "7",
+    "hybrid": "2"
+  },
+  {
+    "pattern": "+-",
+    "source": "Question: What is (4 + 5) - 1?\nAnswer:",
+    "target": "Question: What is (6 + 1) - 5?\nAnswer:",
+    "source_final": "8",
+    "source_intermediate": "9",
+    "target_final": "2",
+    "target_intermediate": "7",
+    "hybrid": "4"
+  },
+  {
+    "pattern": "+-",
+    "source": "Question: What is (4 + 4) - 2?\nAnswer:",
+    "target": "Question: What is (8 + 1) - 6?\nAnswer:",
+    "source_final": "6",
+    "source_intermediate": "8",
+    "target_final": "3",
+    "target_intermediate": "9",
+    "hybrid": "2"
+  },
+  {
+    "pattern": "-+",
+    "source": "Question: What is (4 - 3) + 4?\nAnswer:",
+    "target": "Question: What is (7 - 5) + 7?\nAnswer:",
+    "source_final": "5",
+    "source_intermediate": "1",
+    "target_final": "9",
+    "target_intermediate": "2",
+    "hybrid": "8"
+  },
+  {
+    "pattern": "-+",
+    "source": "Question: What is (5 - 4) + 5?\nAnswer:",
+    "target": "Question: What is (6 - 1) + 3?\nAnswer:",
+    "source_final": "6",
+    "source_intermediate": "1",
+    "target_final": "8",
+    "target_intermediate": "5",
+    "hybrid": "4"
+  },
+  {
+    "pattern": "++",
+    "source": "Question: What is (2 + 3) + 2?\nAnswer:",
+    "target": "Question: What is (4 + 2) + 3?\nAnswer:",
+    "source_final": "7",
+    "source_intermediate": "5",
+    "target_final": "9",
+    "target_intermediate": "6",
+    "hybrid": "8"
+  },
+  {
+    "pattern": "-+",
+    "source": "Question: What is (7 - 2) + 1?\nAnswer:",
+    "target": "Question: What is (5 - 4) + 2?\nAnswer:",
+    "source_final": "6",
+    "source_intermediate": "5",
+    "target_final": "3",
+    "target_intermediate": "1",
+    "hybrid": "7"
+  },
+  {
+    "pattern": "++",
+    "source": "Question: What is (1 + 4) + 1?\nAnswer:",
+    "target": "Question: What is (3 + 3) + 3?\nAnswer:",
+    "source_final": "6",
+    "source_intermediate": "5",
+    "target_final": "9",
+    "target_intermediate": "6",
+    "hybrid": "8"
+  },
+  {
+    "pattern": "+-",
+    "source": "Question: What is (4 + 3) - 1?\nAnswer:",
+    "target": "Question: What is (4 + 4) - 7?\nAnswer:",
+    "source_final": "6",
+    "source_intermediate": "7",
+    "target_final": "1",
+    "target_intermediate": "8",
+    "hybrid": "0"
+  },
+  {
+    "pattern": "+-",
+    "source": "Question: What is (3 + 4) - 1?\nAnswer:",
+    "target": "Question: What is (7 + 1) - 3?\nAnswer:",
+    "source_final": "6",
+    "source_intermediate": "7",
+    "target_final": "5",
+    "target_intermediate": "8",
+    "hybrid": "4"
+  },
+  {
+    "pattern": "-+",
+    "source": "Question: What is (7 - 2) + 3?\nAnswer:",
+    "target": "Question: What is (5 - 2) + 4?\nAnswer:",
+    "source_final": "8",
+    "source_intermediate": "5",
+    "target_final": "7",
+    "target_intermediate": "3",
+    "hybrid": "9"
+  },
+  {
+    "pattern": "++",
+    "source": "Question: What is (2 + 2) + 2?\nAnswer:",
+    "target": "Question: What is (1 + 6) + 1?\nAnswer:",
+    "source_final": "6",
+    "source_intermediate": "4",
+    "target_final": "8",
+    "target_intermediate": "7",
+    "hybrid": "5"
+  },
+  {
+    "pattern": "-+",
+    "source": "Question: What is (5 - 1) + 2?\nAnswer:",
+    "target": "Question: What is (4 - 1) + 4?\nAnswer:",
+    "source_final": "6",
+    "source_intermediate": "4",
+    "target_final": "7",
+    "target_intermediate": "3",
+    "hybrid": "8"
+  },
+  {
+    "pattern": "++",
+    "source": "Question: What is (2 + 1) + 2?\nAnswer:",
+    "target": "Question: What is (2 + 2) + 5?\nAnswer:",
+    "source_final": "5",
+    "source_intermediate": "3",
+    "target_final": "9",
+    "target_intermediate": "4",
+    "hybrid": "8"
+  },
+  {
+    "pattern": "+-",
+    "source": "Question: What is (4 + 2) - 1?\nAnswer:",
+    "target": "Question: What is (4 + 4) - 2?\nAnswer:",
+    "source_final": "5",
+    "source_intermediate": "6",
+    "target_final": "6",
+    "target_intermediate": "8",
+    "hybrid": "4"
+  },
+  {
+    "pattern": "-+",
+    "source": "Question: What is (6 - 4) + 7?\nAnswer:",
+    "target": "Question: What is (3 - 2) + 3?\nAnswer:",
+    "source_final": "9",
+    "source_intermediate": "2",
+    "target_final": "4",
+    "target_intermediate": "1",
+    "hybrid": "5"
+  },
+  {
+    "pattern": "*-",
+    "source": "Question: What is (2 * 3) - 1?\nAnswer:",
+    "target": "Question: What is (2 * 4) - 2?\nAnswer:",
+    "source_final": "5",
+    "source_intermediate": "6",
+    "target_final": "6",
+    "target_intermediate": "8",
+    "hybrid": "4"
+  },
+  {
+    "pattern": "-+",
+    "source": "Question: What is (9 - 6) + 4?\nAnswer:",
+    "target": "Question: What is (8 - 6) + 3?\nAnswer:",
+    "source_final": "7",
+    "source_intermediate": "3",
+    "target_final": "5",
+    "target_intermediate": "2",
+    "hybrid": "6"
+  },
+  {
+    "pattern": "++",
+    "source": "Question: What is (3 + 4) + 2?\nAnswer:",
+    "target": "Question: What is (4 + 1) + 1?\nAnswer:",
+    "source_final": "9",
+    "source_intermediate": "7",
+    "target_final": "6",
+    "target_intermediate": "5",
+    "hybrid": "8"
+  },
+  {
+    "pattern": "*-",
+    "source": "Question: What is (3 * 3) - 7?\nAnswer:",
+    "target": "Question: What is (3 * 2) - 1?\nAnswer:",
+    "source_final": "2",
+    "source_intermediate": "9",
+    "target_final": "5",
+    "target_intermediate": "6",
+    "hybrid": "8"
+  },
+  {
+    "pattern": "++",
+    "source": "Question: What is (2 + 2) + 2?\nAnswer:",
+    "target": "Question: What is (2 + 3) + 4?\nAnswer:",
+    "source_final": "6",
+    "source_intermediate": "4",
+    "target_final": "9",
+    "target_intermediate": "5",
+    "hybrid": "8"
+  },
+  {
+    "pattern": "-+",
+    "source": "Question: What is (5 - 2) + 6?\nAnswer:",
+    "target": "Question: What is (7 - 3) + 2?\nAnswer:",
+    "source_final": "9",
+    "source_intermediate": "3",
+    "target_final": "6",
+    "target_intermediate": "4",
+    "hybrid": "5"
+  },
+  {
+    "pattern": "-+",
+    "source": "Question: What is (8 - 6) + 7?\nAnswer:",
+    "target": "Question: What is (9 - 2) + 1?\nAnswer:",
+    "source_final": "9",
+    "source_intermediate": "2",
+    "target_final": "8",
+    "target_intermediate": "7",
+    "hybrid": "3"
+  },
+  {
+    "pattern": "-+",
+    "source": "Question: What is (3 - 2) + 6?\nAnswer:",
+    "target": "Question: What is (9 - 7) + 4?\nAnswer:",
+    "source_final": "7",
+    "source_intermediate": "1",
+    "target_final": "6",
+    "target_intermediate": "2",
+    "hybrid": "5"
+  },
+  {
+    "pattern": "+-",
+    "source": "Question: What is (2 + 5) - 3?\nAnswer:",
+    "target": "Question: What is (7 + 2) - 6?\nAnswer:",
+    "source_final": "4",
+    "source_intermediate": "7",
+    "target_final": "3",
+    "target_intermediate": "9",
+    "hybrid": "1"
+  },
+  {
+    "pattern": "++",
+    "source": "Question: What is (2 + 2) + 1?\nAnswer:",
+    "target": "Question: What is (1 + 2) + 4?\nAnswer:",
+    "source_final": "5",
+    "source_intermediate": "4",
+    "target_final": "7",
+    "target_intermediate": "3",
+    "hybrid": "8"
+  },
+  {
+    "pattern": "+-",
+    "source": "Question: What is (3 + 6) - 4?\nAnswer:",
+    "target": "Question: What is (4 + 4) - 7?\nAnswer:",
+    "source_final": "5",
+    "source_intermediate": "9",
+    "target_final": "1",
+    "target_intermediate": "8",
+    "hybrid": "2"
+  },
+  {
+    "pattern": "-+",
+    "source": "Question: What is (3 - 2) + 3?\nAnswer:",
+    "target": "Question: What is (9 - 3) + 1?\nAnswer:",
+    "source_final": "4",
+    "source_intermediate": "1",
+    "target_final": "7",
+    "target_intermediate": "6",
+    "hybrid": "2"
+  },
+  {
+    "pattern": "+-",
+    "source": "Question: What is (4 + 4) - 2?\nAnswer:",
+    "target": "Question: What is (4 + 3) - 5?\nAnswer:",
+    "source_final": "6",
+    "source_intermediate": "8",
+    "target_final": "2",
+    "target_intermediate": "7",
+    "hybrid": "3"
+  }
+]

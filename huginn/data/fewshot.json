@@ -1,0 +1,50 @@
+[
+  {
+    "a": 2,
+    "b": 2,
+    "c": 2,
+    "op1": "*",
+    "op2": "*",
+    "pattern": "**",
+    "intermediate": "4",
+    "final": "8",
+    "context": "Question: What is (2 * 2) * 2?\nAnswer:",
+    "completion": " 8"
+  },
+  {
+    "a": 2,
+    "b": 3,
+    "c": 2,
+    "op1": "*",
+    "op2": "+",
+    "pattern": "*+",
+    "intermediate": "6",
+    "final": "8",
+    "context": "Question: What is (2 * 3) + 2?\nAnswer:",
+    "completion": " 8"
+  },
+  {
+    "a": 2,
+    "b": 3,
+    "c": 2,
+    "op1": "*",
+    "op2": "-",
+    "pattern": "*-",
+    "intermediate": "6",
+    "final": "4",
+    "context": "Question: What is (2 * 3) - 2?\nAnswer:",
+    "completion": " 4"
+  },
+  {
+    "a": 2,
+    "b": 1,
+    "c": 2,
+    "op1": "+",
+    "op2": "*",
+    "pattern": "+*",
+    "intermediate": "3",
+    "final": "6",
+    "context": "Question: What is (2 + 1) * 2?\nAnswer:",
+    "completion": " 6"
+  }
+]
